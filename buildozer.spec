@@ -1,13 +1,20 @@
 [app]
-title = Accessibility Companion AI
+title = Accessibility Companion
 package.name = accessibilitycompanion
 package.domain = org.accessibility
-source.include_exts = py,png,jpg,kv,atlas
+source.dir = .
+source.exts = py,png,jpg,kv,atlas
+version = 1.0
 requirements = python3,kivy
 orientation = portrait
-android.permissions = RECORD_AUDIO,INTERNET,ACCESS_NETWORK_STATE,WAKE_LOCK
+osx.python_version = 3
+osx.kivy_version = 1.9.1
+fullscreen = 0
+android.permissions = INTERNET
 android.api = 33
-android.archs = arm64-v8a, armeabi-v7a
-
-[buildozer]
-log_level = 2
+android.min_api = 21
+android.sdk = 30
+android.ndk = 25b
+android.gradle_dependencies = 
+android.skip_update = False
+android.accept_sdk_license = True

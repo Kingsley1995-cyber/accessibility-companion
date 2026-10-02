@@ -14,6 +14,9 @@ android.min_api = 21
 android.skip_update = False
 android.accept_sdk_license = True
 
+# (str) python-for-android branch to use
+p4a.branch = develop
+
 [buildozer]
 log_level = 2
 warn_on_root = 1

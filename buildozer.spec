@@ -11,11 +11,9 @@ fullscreen = 0
 android.permissions = INTERNET
 android.api = 33
 android.min_api = 21
+android.ndk = 25b
 android.skip_update = False
 android.accept_sdk_license = True
-
-# (str) python-for-android branch to use
-p4a.branch = develop
 
 [buildozer]
 log_level = 2
